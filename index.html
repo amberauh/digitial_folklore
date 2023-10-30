@@ -20,10 +20,10 @@
       
        h1 {
         text-align: center;
-        font-family: 'Shrikhand', serif;
-        
-        color: pink;
-        background-color: hsl(240, 100%, 67%);
+        font-family: "Shrikhand", serif;
+        font-size: 8vw;
+        color: hsl(240, 100%, 67%);;
+/*         background-color: hsl(240, 100%, 67%); */
 /*         display: inline; */
 /*         width: 50vw; */
 /*         height: 100px; */
@@ -49,13 +49,20 @@
         /*z-index: -1; puts the square behind
       }*/
       
+      .drawing {
+        position: absolute;
+        top: 180px;
+        right: 43vw;
+        width: 17vw;
+      }
+      
     </style>
   </head>
   <body>
     
     <h1>Welcome!</h1>
     <div class="pink"></div>
-    <img src="snoopydrawing.gif" alt="snoopy painting woodstock">
+    <img class = drawing src="snoopydrawing.gif" alt="snoopy painting woodstock">
     
   
   </body>
