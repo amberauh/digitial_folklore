@@ -49,20 +49,47 @@
         /*z-index: -1; puts the square behind
       }*/
       
+      @keyframes zoom {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.5);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      
       .drawing {
         position: absolute;
         top: 180px;
         right: 43vw;
         width: 17vw;
+        animation-name: zoom;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+      }
+      
+      h1 > b {
+        transition: font-size 0.25s;
+      }
+      h1 > b:hover {
+        color: blue;
+        font-size: 9vw;
+        display: inline-block;
+        transform: rotate(10deg);
       }
       
     </style>
   </head>
   <body>
     
-    <h1>Welcome!</h1>
-    <div class="pink"></div>
-    <img class = drawing src="snoopydrawing.gif" alt="snoopy painting woodstock">
+    <h1>
+      <b>W</b><b>e</b><b>l</b><b>c</b><b>o</b><b>m</b><b>e</b><b>!</b>
+    </h1>
+    <div class="pink"></div> 
+    <img class="drawing" src="snoopydrawing.gif" alt="snoopy painting woodstock">
     
   
   </body>
