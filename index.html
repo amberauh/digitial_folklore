@@ -34,7 +34,7 @@
 /*         margin: 20px auto;  */
       }
     
-      div {
+      .intro-text {
         background-color: white;
         display: inline-block;
         width: 30vw;
@@ -49,9 +49,7 @@
         margin-left: 2vw;
         
       }
-        /*z-index: -1; puts the square behind
-      }*/
-      
+       
       @keyframes zoom {
         0% {
           transform: scale(1);
@@ -74,13 +72,6 @@
         animation-iteration-count: 3;
       }
       
-/*       .sunface { 
-        position: absolute;
-        top: 11px;
-        left: 22vw;
-        width: 8vw;
-      } */
-      
       .smileyjr1 {
         position: absolute;
         top: 11px;
@@ -95,7 +86,29 @@
         width: 6vw 
       }
       
+      .flowerborder {
+        position: absolute;
+        top: 7vw;
+        width: 45vw;
+        left: 28vw;
+      }
       
+      .bottom-border {
+        background-color: white;
+        top: 50vw;
+        height: 10vw;
+        width: 100%;
+        position: absolute;
+        border: 1.5vw dotted pink
+        
+      }
+      
+      .dancingoldppl {
+        position: absolute;
+        right: 5vw;
+        width: 30vw;
+        top: 20vw;
+      }
       
       h1 > b {
         transition: font-size 0.25s;
@@ -114,12 +127,13 @@
     <h1>
       <b>W</b><b>e</b><b>l</b><b>c</b><b>o</b><b>m</b><b>e</b><b>!</b>
     </h1>
-    <div>Dear viewer, this is my first web page ever! Here is a collection of things that I think are visually entertaining. </div> 
+    <div class="intro-text">Dear viewer, this is my first web page ever! Here is a collection of things that I think are visually entertaining :0 </div>
     <img class="drawing" src="snoopydrawing.gif" alt="snoopy painting woodstock">
     <img class="smileyjr1" src="smiley jumping rope.gif" alt="smiley face jumping rope">
     <img class="smileyjr2" src="smiley jumping rope.gif" alt="smiley face jumping rope">
-    <img src="flowerborder.gif" alt="description of image">
-    
+    <img class="flowerborder" src="flowerborder.gif" alt="description of image">
+    <img class="dancingoldppl" src="dancing old people.gif" alt="description of image">
+    <div class="bottom-border"></div>
     
   
   </body>
