@@ -6,34 +6,26 @@
     <title>Amber's Homepage</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
-     
+
       * {
         box-sizing: border-box;
       }
-      
+
       body {
         margin: 0;
         height: 100vh;
         background-color: pink;
         background-image: url("giphy.gif");
       }
-      
-       h1 {
+
+      h1 {
         text-align: center;
         font-family: "Shrikhand", serif;
         font-size: 8vw;
-        color: hsl(240, 100%, 67%);;
-/*         background-color: hsl(240, 100%, 67%); */
-/*         display: inline; */
-/*         width: 50vw; */
-/*         height: 100px; */
-/*         box-sizing: border-box; */
-/*         padding: 20px; */
-/*         border-radius: 20px; */
-/*         border: 10px solid hsl(88, 60%, 77%); */
-/*         margin: 20px auto;  */
+        color: hsl(240, 100%, 67%);
+        ;
       }
-    
+
       .intro-text {
         background-color: white;
         display: inline-block;
@@ -47,52 +39,61 @@
         font-size: 2.5vw;
         position: sticky;
         margin-left: 2vw;
-        
+
       }
-       
+
       @keyframes zoom {
         0% {
           transform: scale(1);
         }
+
         50% {
           transform: scale(1.5);
         }
+
         100% {
           transform: scale(1);
         }
       }
-      
+
       .drawing {
         position: absolute;
         top: 20vw;
         right: 43vw;
         width: 17vw;
         animation-name: zoom;
-        animation-duration: 2s; 
+        animation-duration: 2s;
         animation-iteration-count: 3;
       }
-      
+
       .smileyjr1 {
         position: absolute;
         top: 11px;
         left: 23vw;
         width: 6vw;
       }
-      
+
       .smileyjr2 {
         position: absolute;
         right: 22vw;
         top: 11px;
-        width: 6vw 
+        width: 6vw
       }
-      
+
       .flowerborder {
         position: absolute;
         top: 7vw;
         width: 45vw;
         left: 28vw;
       }
-      
+
+      .dancingoldppl {
+        position: absolute;
+        right: 5vw;
+        width: 30vw;
+        top: 20vw;
+      }
+
       .bottom-border {
         background-color: white;
         top: 50vw;
@@ -100,44 +101,36 @@
         width: 100vw;
         position: absolute;
         border: 1.5vw dotted pink
-        
       }
-      
-      .dancingoldppl {
-        position: absolute;
-        right: 5vw;
-        width: 30vw;
-        top: 20vw;
-      }
-      
+
       .flowerpatch1 {
         position: absolute;
         top: 60vw;
         left: 0vw;
         width: 15vw;
       }
-      
+
       .flowerpatch2 {
         position: absolute;
         width: 15vw;
-        top: 60vw; 
+        top: 60vw;
         left: 28vw
       }
-      
+
       .flowerpatch3 {
         position: absolute;
         width: 15vw;
         top: 60vw;
         left: 57vw;
       }
-      
+
       .flowerpatch4 {
         position: absolute;
         width: 15vw;
         top: 60vw;
         right: 0vw;
       }
-      
+
       .bottomborder2 {
         background-color: white;
         top: 75vw;
@@ -147,20 +140,27 @@
         border: 1.5vw dotted pink
       }
       
-      h1 > b {
+      .poohwalking {
+        position: absolute;
+        width: 97vw;
+        left: 0vw;
+        top: 60vw;
+      }
+
+      h1>b {
         transition: font-size 0.25s;
       }
-      h1 > b:hover {
+
+      h1>b:hover {
         color: blue;
         font-size: 9vw;
         display: inline-block;
         transform: rotate(10deg);
       }
-      
     </style>
   </head>
   <body>
-    
+
     <h1>
       <b>W</b><b>e</b><b>l</b><b>c</b><b>o</b><b>m</b><b>e</b><b>!</b>
     </h1>
@@ -170,16 +170,16 @@
     <img class="smileyjr2" src="smiley jumping rope.gif" alt="smiley face jumping rope">
     <img class="flowerborder" src="flowerborder.gif" alt="description of image">
     <img class="dancingoldppl" src="dancing old people.gif" alt="description of image">
+
     <div class="bottom-border"></div>
     <img class="flowerpatch1" src="flowerpatch.gif" alt="description of image">
     <img class="flowerpatch2" src="flowerpatch.gif" alt="description of image">
     <img class="flowerpatch3" src="flowerpatch.gif" alt="description of image">
     <img class="flowerpatch4" src="flowerpatch.gif" alt="description of image">
-    <div class="bottomborder2">
-      
-    </div>
+    <div class="bottomborder2"></div>
     
-  
+    <img class="poohwalking" src="poohwalking.gif" alt="description of image">
+
+
   </body>
 </html>
-
