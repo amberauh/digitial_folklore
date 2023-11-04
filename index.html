@@ -29,19 +29,23 @@
       .intro-text {
         background-color: white;
         display: inline-block;
-        width: 30vw;
-        min-height: 20vh;
+        max-width: 30vw;
+        max-height: 60vh;
         box-sizing: border-box;
-        padding: 10px;
-        border-radius: 20px;
-        border: 10px solid hsl(88, 60%, 77%);
+        padding: 1vw;
+        border-radius: 2vw;
+        border: 1vw solid hsl(88, 60%, 77%);
         font-family: "Shrikhand", serif;
         font-size: 2.5vw;
-        position: sticky;
+        position: absolute;
         margin-left: 2vw;
 
       }
-
+      
+      @media (max-width: 768px) {
+        .intro-text {
+          font-size: 2vw; }
+      }
       @keyframes zoom {
         0% {
           transform: scale(1);
@@ -114,7 +118,7 @@
         position: absolute;
         width: 15vw;
         top: 60vw;
-        left: 28vw
+        left: 28vw;
       }
 
       .flowerpatch3 {
@@ -171,14 +175,17 @@
     <img class="flowerborder" src="flowerborder.gif" alt="description of image">
     <img class="dancingoldppl" src="dancing old people.gif" alt="description of image">
 
+
     <div class="bottom-border"></div>
     <img class="flowerpatch1" src="flowerpatch.gif" alt="description of image">
     <img class="flowerpatch2" src="flowerpatch.gif" alt="description of image">
     <img class="flowerpatch3" src="flowerpatch.gif" alt="description of image">
     <img class="flowerpatch4" src="flowerpatch.gif" alt="description of image">
     <div class="bottomborder2"></div>
-    
     <img class="poohwalking" src="poohwalking.gif" alt="description of image">
+    
+    
+    
 
 
   </body>
